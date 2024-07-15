@@ -1,5 +1,9 @@
 # woocommerce-tests
 
+```bash
+npx playwright test --headed --project=chromium && npx playwright show-report
+```
+
 ### Para ejecutar test en una archivo especifico en los 3 navegadores
 ```bash
 npx playwright test "archivo.js"
